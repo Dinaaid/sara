@@ -1,0 +1,128 @@
+html , body {
+    height: 100vh;
+    background-image: url(../assets/bg2.jpg);
+}
+
+
+.navbar {
+    background-color: rgb(241, 175, 175);
+}
+header nav {
+    width: 100%;
+}
+
+header nav a {
+    font-size: x-large;
+    color: white;
+}
+
+header nav li:hover {
+    background-color: #C99;
+    border-radius: 5px;
+}
+
+nav h2 {
+    font-size: xx-large;
+    padding-top:10px;
+    padding-right: 30px; 
+}
+
+header article {
+    padding-top: 70px;
+    width: 100%
+}
+
+header img {
+    align-self: flex-start;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+header nav .dropdown button {
+    color: white;
+    font-size: x-large;
+}
+
+header nav .dropdown button:hover {
+    background-color: #C99;
+    color: white;
+}
+
+.dropdown-menu {
+    background: rgb(241, 175, 175);
+}
+
+.dropdown-menu a {
+    color: white;
+    background: rgb(241, 175, 175);
+
+}
+
+.dropdown-menu a:hover {
+   background-color: #C99;
+   color: white;
+}
+
+.collapse li a {
+    color: white;
+    font-size: 20px;
+    position: sticky;
+    position: sticky;
+}
+
+.collapse li a:hover {
+    color: white;
+}
+.pageNews {
+    height: auto;
+}
+
+.News h1 {
+    color: #06C;
+    font-size: 50px;
+}
+
+.News .Layout-image img {
+    height: auto;
+    width: auto;
+}
+
+.card-body {
+    height: 70vh;
+    width: 100%;
+}
+
+.card-group {
+    height: auto;
+}
+
+.img1 {
+    width: 100%;
+    background-image: url('../sara/a.jpg');
+    background-position: center;
+    background-size: cover;
+} 
+.img2 {
+    width: 100%;
+    background-image: url('../sara/b.jpg');
+    background-position: center;
+    background-size: cover;
+} 
+.img3 {
+    width: 100%;
+    background-image: url('../sara/p.jpg');
+    background-position: center;
+    background-size: cover;
+} 
+.img4 {
+    width: 100%;
+    background-image: url('../sara/half.jpg');
+    background-position: center;
+    background-size: cover;
+} 
+.img5 {
+    width: 100%;
+    background-image: url('../sara/s.jpg');
+    background-position: center;
+    background-size: cover;
+} 
