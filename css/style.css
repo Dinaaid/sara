@@ -1,19 +1,34 @@
-html , body {
-    height: 100vh;
-    background-image: url(../assets/bg2.jpg);
+* {
+    transition: all ease-in .5 ;
+}
+html,body {
+    height: 100%;
+    margin: 0;
 }
 
+body {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../assets/abstract-abstract-painting-acrylic-2179389.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Kaushan Script', cursive;
+}
 
 .navbar {
-    background-color: rgb(241, 175, 175);
+    font-family: 'Handlee', cursive;
+    background-color: transparent;
 }
 header nav {
     width: 100%;
 }
 
-header nav a {
-    font-size: x-large;
-    color: white;
+header nav a,button {
+    font-size: x-large !important;
+    color: black !important;
 }
 
 header nav li:hover {
@@ -21,7 +36,7 @@ header nav li:hover {
     border-radius: 5px;
 }
 
-nav h2 {
+nav h3 {
     font-size: xx-large;
     padding-top:10px;
     padding-right: 30px; 
@@ -39,7 +54,7 @@ header img {
 }
 
 header nav .dropdown button {
-    color: white;
+    color: black;
     font-size: x-large;
 }
 
@@ -53,33 +68,39 @@ header nav .dropdown button:hover {
 }
 
 .dropdown-menu a {
-    color: white;
+    font-size: medium;
+    color: black;
     background: rgb(241, 175, 175);
 
 }
 
 .dropdown-menu a:hover {
    background-color: #C99;
-   color: white;
+   color: black;
 }
 
 .collapse li a {
-    color: white;
+    color: black;
     font-size: 20px;
     position: sticky;
     position: sticky;
 }
 
 .collapse li a:hover {
-    color: white;
+    color: black;
 }
+
+.carousel-inner {
+    height: 70vh;
+}
+
 .pageNews {
     height: auto;
 }
 
-.News h1 {
+h1 {
     color: #06C;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .News .Layout-image img {
@@ -88,7 +109,7 @@ header nav .dropdown button:hover {
 }
 
 .card-body {
-    height: 70vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -126,3 +147,174 @@ header nav .dropdown button:hover {
     background-position: center;
     background-size: cover;
 } 
+
+.imageone img {
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.imageone img:hover {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 247, 247, 0.19);
+}
+
+/* Accessories  */
+
+
+.image2 img{
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.image2 span {
+    position: absolute;
+    height: 5vh;
+    width: 78%;
+    bottom: 4px;
+    font-size: 20px;
+    border-radius:5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue; 
+}
+
+.image2 span:hover {
+    height: 12vh;
+     -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+h2 {
+    color: #06C;
+    font-size: 70px;
+}
+
+
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 35px;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+.social a {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    color: #FFF;
+    border: 1px solid #000;
+    padding-top: 16px;
+    border-radius: 25px;
+    text-align: center;
+	
+}
+
+.sociala:hover {
+    background-color: #C99;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fab {
+	width: 40px;
+    height: 28px;
+	color: #000;
+	background-color: white;
+
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fab:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
